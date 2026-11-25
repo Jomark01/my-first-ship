@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jomark Tan</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eaeef2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0a0a0a;
+    padding: 20px;
+  }
+  .card {
+    background: #ffffff;
+    max-width: 480px;
+    width: 100%;
+    padding: 40px 32px;
+    border-radius: 16px;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 8px 24px rgba(9, 34, 68, 0.08);
+  }
+  .label {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #287be8;
+    margin: 0 0 8px;
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 32px;
+    color: #092244;
+  }
+  .role {
+    margin: 0 0 24px;
+    font-size: 18px;
+    color: #737373;
+  }
+  h2 {
+    margin: 24px 0 6px;
+    font-size: 14px;
+    color: #092244;
+  }
+  p { line-height: 1.5; margin: 0; }
+  .contact {
+    margin-top: 32px;
+    padding: 16px;
+    background: #092244;
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <p class="label">Accounting Team</p>
+    <h1>Jomark Tan</h1>
+    <p class="role">Accounting professional, learning AI</p>
+
+    <h2>What I do</h2>
+    <p>I am a beginner in AI, and I am learning how to use it to improve our accounting processes, one step at a time.</p>
+
+    <h2>Who I help</h2>
+    <p>My team. The goal is to save us time and cut down on repetitive work.</p>
+
+    <div class="contact">
+      Have an idea for a process we could improve? Come talk to me, I would love to hear it.
+    </div>
+  </div>
+</body>
+</html>
